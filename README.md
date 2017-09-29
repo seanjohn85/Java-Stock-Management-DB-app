@@ -11,28 +11,37 @@ Install xammp or Mamp on the machine,
 Once installed start the Apahce server and the MYSql database on the local machine.
 
 Open phpMyAdmin - http://localhost/phpmyadmin/ - this link is for Xampp only.
-Click the import tab and import the 
 
-Set up a server 
+Click the import tab and import the database file N00145905.sql in this repo.
 
-Navigate to the project directory using the terminal.
+Once the database is uploaded the server side set up is complete.
 
-Before started the server application please ensure to use NPM to download and install any library dependencies before starting the server application. This can be done using the NPM in the terminal.
+Please note the server needs to be running at all times when the client application is running to access the database.
 
-The server app that needs to run is server.js. 
 
-This can be run by simply typing node server into the terminal on the project directory.
+## Setting up The project  (Instructions using Netbeans)
+Download the final try folder and all the jar files in this repo.
+Import the project into netbeans at this point or when you try to run the project you will be notified of the missing jar libraries used in the project simply download add the downloaded jar files to the netbeans project and click run.
 
-The server will start and log Listening on *3000 to indicate the port no of the server app.
-
-### Running on the client device
-
-Once the server is running, open a web browser and type localhost:3000. This will connect to the Node server application and the server will serve the index.html web page. When the page loads you are good to go and the client and server setup is successful. Repeat this process to open multiple clients as the game needs more than one user.
-
-If you navigate back to your terminal you will see a message indicating a new client has connected.
 
 
 #### Using the application
-1. log in
-2. click any user to challenge the user to a game 
-3. play the game and enjoy 😀
+The server will need to be running at all times. Once the server is running and the application is open in netbeans click the run button. Then log in.
+This application is text based and is designed as a back end to match the stock management website. Please note their are different types of user accounts and below are some sample accounts
+
+MaJohn1
+secret
+MANAGER
+
+Joe1
+secret
+BRANCHADMIN
+
+
+HQAlice2
+secret
+ADMIN
+
+HQClare3
+secret
+HR
