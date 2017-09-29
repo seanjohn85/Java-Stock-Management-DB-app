@@ -3,7 +3,15 @@
 
 This app was created in netbeans IDE and is a fully functioning end to end stock management system. This system connects to a mySQl db so a program like Xamp is needed to run the application. This is app also handles multiple different file io read and write types for reporting. This is text based only and contains no UI at present. It is a Java version of the Asset Management website also on my profile. https://github.com/seanjohn85/Asset-Management-WebSite
 
-## Setting up the application (Mac based instructions using netbeans)
+## Setting up the server (Mac based instructions using Xammp)
+
+This program uses was designed to interact with a MYSQL database.
+
+Install xammp or Mamp on the machine,
+Once installed start the Apahce server and the MYSql database on the local machine.
+
+Open phpMyAdmin - http://localhost/phpmyadmin/ - this link is for Xampp only.
+Click the import tab and import the 
 
 Set up a server 
 
