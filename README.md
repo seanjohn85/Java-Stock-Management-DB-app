@@ -20,13 +20,13 @@ Please note the server needs to be running at all times when the client applicat
 
 
 ## Setting up The project  (Instructions using Netbeans)
-Download the final try folder and all the jar files in this repo.
+Download the final try folder and all the jar files in this repository.
 Import the project into netbeans at this point or when you try to run the project you will be notified of the missing jar libraries used in the project simply download add the downloaded jar files to the netbeans project and click run.
 
 
 
 #### Using the application
-The server will need to be running at all times. Once the server is running and the application is open in netbeans click the run button. Then log in.
+The server will need to be running at all times. Once the server is running and the application is open in netbeans then click the run button. Then log in.
 This application is text based and is designed as a back end to match the stock management website. Please note their are different types of user accounts and below are some sample accounts
 
 MaJohn1
